@@ -1,0 +1,3 @@
+name: harbor-permissions
+runtime: nodejs
+description: Harbor permissions stack - Project member assignments and CLI secrets
