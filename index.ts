@@ -196,3 +196,6 @@ console.log("- CLI secret configured for automated access");
 
 // Export CLI secret for external use
 export const harborGithubUserCliSecretExport = harborGithubUserCliSecret;
+
+// Export GitHub username for external use (required by anthropic-api workflow)
+export { harborGithubUserName };
