@@ -4,6 +4,7 @@
     "description": "Harbor permissions stack - Project member assignments and CLI secrets",
     "main": "index.js",
     "dependencies": {
+        "@pulumi/keycloak": "^6.7.0",
         "@pulumi/pulumi": "^3.0.0",
         "@pulumiverse/harbor": "^3.10.9",
         "dotenv": "^16.0.0"
