@@ -60,5 +60,6 @@ console.log("✅ Harbor Permissions configured successfully!");
 console.log("Robot account created for CI/CD use");
 
 // Export robot account credentials for CI/CD
-export const robotAccountName = cicdRobotAccount.name;
+// Use fullName which contains the complete robot account name (robot$project+name)
+export const robotAccountName = cicdRobotAccount.fullName;
 export const robotAccountSecret = cicdRobotAccount.secret;
